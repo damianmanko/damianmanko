@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Damian Manko | Automotive Photography</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #eee;
+    }
+    header {
+      padding: 40px;
+      text-align: center;
+      background-color: #000;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #1c1c1c;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 10px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #000;
+      font-size: 0.9rem;
+    }
+    .contact {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Damian Manko Logo" height="100">
+    <h1>Damian Manko</h1>
+    <p>Automotive Photography & More</p>
+  </header>
+
+  <nav>
+    <a href="#automotive">Automotive</a>
+    <a href="#other">Other</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="automotive" class="gallery">
+    <img src="car1.jpg" alt="Automotive 1">
+    <img src="car2.jpg" alt="Automotive 2">
+    <img src="car3.jpg" alt="Automotive 3">
+  </section>
+
+  <section id="other" class="gallery">
+    <img src="landscape1.jpg" alt="Landscape 1">
+    <img src="portrait1.jpg" alt="Portrait 1">
+  </section>
+
+  <footer id="contact">
+    <p>Contact: <a href="mailto:mdamian0733@gmail.com">mdamian0733@gmail.com</a></p>
+    <div class="contact">
+      <a href="https://www.instagram.com/damian_manko/" target="_blank">Instagram</a>
+    </div>
+    <p>&copy; 2025 Damian Manko</p>
+  </footer>
+</body>
+</html>
